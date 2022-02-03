@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Tiendita Agro</title>
+</head>
+<body>
+    <header>
+      
+                <a id="titulo" href="index.html">Tiendita</a>
+                <div>
+                    <a class="ciudadPedido text-decoration-none" id="showTiendas"><img src="./images/Union.png" alt=""> <h1 id="ciudadPedidos" class="ciudadPedido" data-bs-toggle="modal" data-bs-target="#listadoTiendas" value="Ciudad de Rionegro">Ciudad de Rionegro</h1></a> 
+                    <div class="divlinea"><img src="./images/linea.png" alt=""></div>
+                    <button id="btnCarrito" href="" class="btnsverdes" data-bs-toggle="modal" data-bs-target="#modalCarrito"><img src="./images/carrito-icon.png" alt=""><h6 class="text-center cantCarrito" id="txtcarritos">0</h6></button>
+                    
+                </div>
+                
+     <div class="exitoso btnsverdes">✓ Producto añadido</div>   
+    </header>
+    <section id="sec1">
+            <div id="banner">
+                <p>¡Adquiere todos tus productos favoritos al mejor precio!</p>
+                          
+            </div>
+
+            <div id="productospp" class="mostrador">
+                <h3>Ofertas</h3>
+                <div id="populares" class="nooverflow populares card-group">
+
+                </div>
+            </div>
+            
+            <div class="mostrador">
+                <h3>Los mas populares</h3>
+            <div id="container-productos" class="card-group nooverflow">
+                
+            </div></div>
+    </section>
+
+    <!-- modal para mostrar el carrito de compras -->
+    <div class="modal fade" id="modalCarrito" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog d-flex"></div>
+        <div class="modal-content">
+            <div class="card-header d-flex justify-content-between">
+                <div class="ubicacion-tienda align-items-center justify-content-between bg-transparent d-flex"><h6>Entregar en:  </h6><h1 id="h3-ubicacion">Ciudad Medellin</h1></div>
+                <button type="button" class="btn-close d-inline-flex" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div id="listCarrito" class="modal-body listadoCompra"></div>
+            <div class="modal-footer bg-white">
+                
+                <div id="bigbtnPagar" class="btnsverdes btn-success w-50 d-flex justify-content-around">
+                    <div id ="cantCarritoModal" class="cantCarrito">0</div>
+                    <button href="" type="button" class="btnsverdes btn-success" id="iraPagar">Ir a pagar</button>
+                    <div class="cantPagar">$0</div>
+                
+                </div>  
+              </div>
+        </div></div>
+
+        <!-- modal para mostrar las tiendas -->
+        <div class="modal fade" id="listadoTiendas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content flex-column">
+                
+                <div id="escogerTiendas" class="modal-body flex-column">
+                    <button type="button" class="btn-close align-content-end" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <h1>¿Donde quieres recibir tus pedidos?</h1>
+                  <p>Para poder ofrecerte productos dentro de tu area, necesitamos tu dirección</p>
+                  <div class="form">
+                    <select class="form-select" id="mostrarTiendasDiv" aria-label="Floating label select example">
+                        
+                      
+                      
+                    </select>
+                    
+                    </div>
+                   
+               
+                  <button id="guardarTienda" class="btn btn-success btnsverdes w-100 btn-primary" data-bs-dismiss="modal" aria-label="Close">Buscar</button>
+                </div>
+               
+              </div>
+            </div>
+          </div>
+    
+    <!-- modal detalle de cada producto -->
+     <div class="modal fade" id="modalProductos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog d-flex modal-lg"><div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="btn-close d-inline-flex" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <div id="listProductos"class="modal-body listadoproductos"></div>
+                <div class="mostrador">
+                    <h1>Productos relacionados</h1>
+                    <div id="cx" class="populares"></div>
+                    </div></div></div></div>
+  </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="./scripts/script.js" type="module"></script>
+</html>
+
+

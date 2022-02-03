@@ -1,0 +1,499 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #FAFAF8;
+  color: #332927;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 40px;
+  position: static;
+  height: 88px;
+  left: 0px;
+  top: 0px;
+  
+  }
+#titulo {
+  position: static;
+  width: 92px;
+  height: 16px;
+  left: 40px;
+  top: 36px;
+  font-family: Inter;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 16px;
+  color: #FC462D;
+  text-decoration: none;
+
+}
+header div{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0px;
+
+
+
+
+}
+#ciudadPedidos{
+  display: inline-flex;
+  align-items: center;
+  margin-right: 5px;
+  vertical-align: middle;
+  text-decoration: none;
+  font-weight: 700;
+  }
+  
+#ciudadPedidos img{
+  margin: 0px 8px;
+}
+
+#btnCarrito{
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 8px 24px;
+width: 89px;
+height: 40px;
+
+
+font-size: 14px;
+line-height: 16px;
+
+}
+.btnsverdes{
+  background: #0AC763;
+  border-radius: 8px;
+  border-style: none;
+  color: white;
+}
+#btnCarrito img{
+  margin: 0px 8px;
+}
+.divlinea{
+  margin: 0px 16px;
+}
+#sec1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 40px;
+  position: static;
+  width: 100%;
+  top: 88px;
+  margin: 0px 0px;
+  }
+  
+            #banner{
+              position: static;
+              background-repeat: no-repeat;
+              width: 100%;
+              height: 250px;
+              margin-bottom: 40px;
+              left: 0;
+              border-radius: 16px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              background-image: url("../images/banner.png");
+            }
+            #banner p {
+                    
+                    height: 42px;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 28px;
+                    line-height: 42px;
+                          
+                    color: #FEFEFE;
+              
+            }
+.mostrador{
+  display: flex;
+ overflow-x: scroll;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  position: static;
+  height: 560px;
+  background: #ffffff;
+  box-shadow: 0px 11px 29px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  margin-bottom: 40px;
+  }
+
+/*Tarjetas de productos de la tienda*/
+.precioconOferta{
+  text-decoration: line-through;
+  color:#B8B4B4;
+}
+#container-productos, #populares{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  height: 418px;
+  width: auto;
+  overflow-x: hidden;
+  margin-bottom: 20px;
+  
+  }
+  .card{
+    border-style: none;
+  }
+  .productos{
+    height: 100%;
+    width: inherit;
+    margin-right:  48px;
+    }
+    .productos .card-body{
+      width: 100%;
+      padding: 0;
+    }
+   a {
+     color: inherit;
+   }
+  .btnclassAct{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 0px;
+    height: 40px;
+    background: #0AC763;
+    border-radius: 8px;
+    border-style: none;
+    color: #FEFEFE;
+    bottom: 0;
+    width: inherit;
+    text-decoration: none;
+    
+    }
+  .valores{
+   color: #332927;
+  }
+  h1{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+
+  .imagen-fruta{
+  width: 194px;
+  height: 194px;
+  left: 0px;
+  top: 40px;
+  background: #FEFEFE;
+  margin-top: 24px;
+  margin-bottom: 16px;
+  }
+  
+  .classOferta{
+    padding: 4px;
+    position: absolute;
+    width: 59px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+    background: #F0E3FE;
+    border-radius: 16px;
+  }
+  
+  .precioOferta{
+  position: static;
+  width: 51px;
+  height: 16px;
+  left: 4px;
+  top: 4px;
+  font-weight: 600 !important;
+  font-size: 12px !important;
+  line-height: 16px !important;
+  text-decoration: none !important;
+  color: #5E18BB !important;
+  text-decoration: none !important; 
+  
+  }
+
+
+
+
+
+
+
+h3 {
+font-size: 20px;
+line-height: 22px;
+color: #333333;
+
+}
+
+/*DISENO MODAL DE PRODUCTOS*/
+
+a:hover {
+  color: inherit;
+}
+#modalProductos .modal-content{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+position: absolute;
+margin: 0 auto;
+background: #FEFEFE;
+border-radius: 16px;
+
+}
+#modalProductos .modal-content header{
+  
+}
+#modalProductos .modal-content img{
+  min-width: 50%;
+  min-height: 50%;
+  padding: 14% 4%;
+}
+.btn-close{
+  display: block;
+  position: absolute;
+  background: #332927;
+  border-radius: 80px;
+  width: 40px;
+  height: 40px;
+  right: 40px;
+  top: 40px;
+  opacity: 1;
+}
+.ubicacion-tienda .btn-close{
+  display: inline-flex;
+  position: relative;
+}
+.modal .btn-close{
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url("../images/cerrar-icono.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*DISEÑO MODAL CARRITO*/
+#modalCarrito .modal-content{
+position: absolute;
+right: 0px;
+top: 0px;
+width: 40vw;
+height: 100vh;
+margin: 0px;
+flex-direction: column;
+
+/*Diseño del boton pagar*/
+}
+#modalCarrito .btn-close{
+  position:inherit;
+}
+#cantCarritoModal{
+  height: 100%;
+  width:10%;
+  background-color: #2E7E78;
+  text-align: center;
+  border-radius: 10px;
+}
+#bigbtnPagar{
+  height: 100%;
+  margin: auto 0;
+}
+/*------------------PAGINA DE PAGOS ---------------------------*/
+#listCarrito{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+/* justify-content: space-between; */
+background: #FFFFFF;
+box-shadow: 0px 11px 29px rgba(0, 0, 0, 0.05);
+}
+.card{
+width: 100%;
+}
+
+
+.carritoPagos{
+  height: 100%;
+  width: 50%;
+  background-color: lightcoral;
+  margin-left: 10%;
+  
+ 
+}
+.payForm{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  width: 40%;
+  height: auto;
+  margin-left: 5%;
+  
+}
+
+
+#listCarrito .card-body{
+  height: 112px;
+  box-shadow: inset 0px -1px 0px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  
+  
+}
+#listCarrito .card-body img{
+  width: 64px;
+  height: 64px; 
+  margin-right: 24px;
+}
+
+.btnvolver{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100px;
+height: 40px;
+margin: 16px;
+margin-left: 40px;
+}
+.circle{
+  background: #332927;
+  border-radius: 80px;
+  width: 40px;
+  height: 40px;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url("../images/icono-volver.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+.btnvolver p{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*BOTONES DE INCREMENTAR DECREMENTAR*/
+.btnsCantidad {
+  display: flex;
+  flex-direction: row;
+  
+  width: 37%;
+  height: 30px;
+  
+  
+}
+.btnsCantidad button{
+  border-radius: 0;
+}
+.btnsCantidad p{
+  font-weight: 700;
+  
+  margin: auto 0;
+}
+.guardarProducto{
+  width: 53%;
+}
+
+@media all and (max-width: 500px) {
+        header {
+          display: flex;
+          flex-direction: column;
+          
+        }
+        #titulo > div{
+          flex-direction: column-reverse;
+
+        }
+
+        .btnsCantidad{
+          width: 225px;
+          height: 24px;
+        }
+        .exitoso{
+          display: inline-flex !important;
+          position: inherit !important;
+          width: 100vw !important;
+          height: 100% !important;
+          margin-top: 20px;
+        }
+      .mobilewrap{
+        flex-wrap: wrap;
+        
+        margin: 0;
+      }
+      #payform{
+        justify-content: center;
+        align-items: center;
+      }
+      #modalCarrito .modal-content{
+        width: 100vw;
+      }
+      #modalProductos .modal-body{
+        flex-wrap: wrap;
+      }
+      
+} 
+.exitoso{
+  width: 26%;
+  height: 50px;
+  border-radius: 3px;
+  text-align: center;
+  top:100px;
+  right: 0px;
+  position:absolute;
+  text-justify: distribute;
+  visibility: hidden;
+  padding-left: 10px;
+  box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12), 0px 3px 5px rgba(0, 0, 0, 0.2);
+border-radius: 4px;
+}
+@keyframes fadeIn {
+  0% {opacity:1;visibility: visible;}
+  70% {opacity:1;visibility: visible;}
+  100% {opacity: 0; visibility: hidden;}
+}
+
+#listadoTiendas .modal-content{
+  background: #FEFEFE;
+border-radius: 16px;
+padding: 40px;
+}
+#listadoTiendas .btn-close{
+  position:relative;
+  top:0px;
+  right: 0px;
+  margin-left: auto;
+}
+#listadoTiendas .modal-body{
+  justify-content: center;
+  
+}
+#mostrarTiendasDiv{
+  height: 40px;
+  width: 100%;
+  border: 1px solid #B8B4B4;
+box-sizing: border-box;
+border-radius: 8px;
+margin-bottom: 5px;
+}

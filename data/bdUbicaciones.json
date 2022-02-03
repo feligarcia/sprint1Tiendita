@@ -1,0 +1,26 @@
+{
+    "tiendas": [
+    {
+        "id" : "1",
+        "nombre" : "Ciudad de Rionegro"
+    },
+    {
+        "id": "2",
+        "nombre" : "Ciudad de Medellin"
+    },
+    {
+        "id": "3",
+        "nombre" : "Agro hub las Vegas"
+    },
+    {
+        
+        "id": "4",
+        "nombre" : "Avocado Hall Ti ti ribi"
+    },
+    {
+        "id": "5",
+        "nombre" : "Tiendita Esperando a Godot"
+    }
+    
+]
+}

@@ -1,0 +1,133 @@
+{
+    "productos": [
+    {
+        "id": "1",
+        "nombre" : "Limon",
+        "precio" : "200",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img1.png",
+        "oferta" : "32%"
+    },
+    {
+        "id": "2",
+        "nombre" : "Tomate",
+        "precio" : "300",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img2.png",
+        "oferta" : "32%"
+    },
+    {
+        "id": "3",
+        "nombre" : "Aguacate Hass",
+        "precio" : "1100",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img3.png",
+        "oferta" : ""
+    },
+    {
+        
+        "id": "4",
+        "nombre" : "Nopal",
+        "precio" : "3200",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img4.png",
+        "oferta" : "3%"
+    },
+    {
+        "id": "5",
+        "nombre" : "Tomate verde",
+        "precio" : "500",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img5.png",
+        "oferta" : ""
+    },
+    {
+        "id": "6",
+        "nombre" : "Cocacola sin azucar",
+        "precio" : "6000",
+        "unidad" : "und",
+        "imagen" : "./data/img/img6.png",
+        "oferta" : ""
+    },
+    {
+        "id": "7",
+        "nombre" : "Cocacola",
+        "precio" : "5500",
+        "unidad" : "und",
+        "imagen" : "./data/img/img7.png",
+        "oferta" : ""
+    },
+    {
+        "id": "8",
+        "nombre" : "Naranja",
+        "precio" : "9000",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img8.png",
+        "oferta" : ""
+    },
+    {
+        "id": "9",
+        "nombre" : "Jitomate Bola",
+        "precio" : "11100",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img9.png",
+        "oferta" : "20%"
+    },
+    {
+        "id": "10",
+        "nombre" : "Manzan Golden",
+        "precio" : "9000",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img10.png",
+        "oferta" : "12%"
+    },
+    {
+        "id": "11",
+        "nombre" : "Pan Bimbo",
+        "precio" : "3300",
+        "unidad" : "und",
+        "imagen" : "./data/img/img11.png",
+        "oferta" : "5%"
+    },
+    {
+        "id": "12",
+        "nombre" : "Pechuga Pavo",
+        "precio" : "8900",
+        "unidad" : "kg",
+        "imagen" : "./data/img/img12.png",
+        "oferta" : ""
+    },
+    {
+        "id": "13",
+        "nombre" : "Mc Cormick Mayonesa",
+        "precio" : "6200",
+        "unidad" : "und",
+        "imagen" : "./data/img/img13.png",
+        "oferta" : ""
+    },
+    {
+        "id": "14",
+        "nombre" : "Colgate",
+        "precio" : "4100",
+        "unidad" : "und",
+        "imagen" : "./data/img/img14.png",
+        "oferta" : ""
+    },
+    {
+        "id": "15",
+        "nombre" : "Huevos AAA x 15",
+        "precio" : "8000",
+        "unidad" : "und",
+        "imagen" : "./data/img/img15.png",
+        "oferta" : ""
+    },
+    {
+        "id": "16",
+        "nombre" : "Fabuloso",
+        "precio" : "3990",
+        "unidad" : "und",
+        "imagen" : "./data/img/img16.png",
+        "oferta" : "7%"
+    }
+]
+}
